@@ -134,7 +134,7 @@ function draw() {
         ? `
         <div class="end-modal">
         <h1 class="win">BANK HAS WON THE GAME</h1>
-        <a class="restart" href="/"><button>RESTART</button></a>
+        <a class="restart" href="./"><button>RESTART</button></a>
       </div>
     `
         : ``
