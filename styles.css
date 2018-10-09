@@ -33,6 +33,14 @@ html {
     font-size: 25px;
   }
 }
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
 .end-modal {
   position: fixed;
   z-index: 999;
@@ -46,6 +54,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  animation: appear 2s;
 }
 .win {
   text-align: center;
