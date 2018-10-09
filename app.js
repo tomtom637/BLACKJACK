@@ -166,7 +166,7 @@ function draw() {
     <div class="container">
       <div class="player">
         <div class="headline">
-          <h2>Player</h2>
+          <h2 class="player-name">Player</h2>
         </div>
         <div class="cards">
           ${game.player.cards.map(
@@ -181,7 +181,7 @@ function draw() {
       </div>
       <div class="player">
         <div class="headline">
-          <h2>Bank</h2>
+          <h2 class="player-name">Bank</h2>
         </div>
         <div class="cards">
         ${game.bank.cards.map(

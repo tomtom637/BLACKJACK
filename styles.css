@@ -27,6 +27,12 @@ html {
   text-align: center;
   text-transform: uppercase;
 }
+@media (max-width: 800px) {
+  .title {
+    padding: 10px;
+    font-size: 25px;
+  }
+}
 .end-modal {
   position: fixed;
   z-index: 999;
@@ -75,6 +81,11 @@ html {
   padding: 15px;
   border-radius: 10px 0 10px 0;
   animation: pulse 2s infinite ease-out;
+}
+@media (max-width: 800px) {
+  .player-name {
+    font-size: 18px;
+  }
 }
 .commands {
   width: 75%;
