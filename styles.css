@@ -174,7 +174,7 @@ html {
 }
 .cards {
   display: flex;
-  height: 50vh;
+  margin-top: 10px;
   align-items: center;
 }
 .game-card {
