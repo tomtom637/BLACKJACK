@@ -66,7 +66,7 @@ const game = {
     hasWon: false,
     hasStarted: false
   },
-  distribute: function(who, whoNot) {
+  distribute(who, whoNot) {
     const randomCard = Math.floor(Math.random() * this.cards.length);
     who.cards.push(this.cards[randomCard]);
     who.score = 0;
